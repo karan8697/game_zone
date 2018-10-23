@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+	<header>
+		<div class="container-fluid home_header">
+			<div style="height:60px" class="col-sm-6">			
+				<!-- DropDown Menu -->
+				<div class="dropdown">
+    				<button style="margin-left: -30px;" class="dropbtn"><i class="fa fa-bars"></i></button>
+    				<div class="dropdown-content">
+        			<div ><button onclick="location.href='home.html';" class="dropdown-down-button"><i class="fa fa-home"></i></button><b> Home</b></div>
+        			<div ><button onclick="location.href='adventure.html';" class="dropdown-down-button"><i class="fa fa-road"></i></button> <b>Adventure Games</b></div>
+        			<div ><button onclick="location.href='action.html';" class="dropdown-down-button"><i class="fa fa-bullseye"></i></button> <b>Action Games</b></div>
+        			<div ><button onclick="location.href='racing.html';" class="dropdown-down-button"><i class="fa fa-car"></i></button> <b> Racing Games</b></div>
+        			<div ><button onclick="location.href='roleplay.html';" class="dropdown-down-button"><i class="fa fa-gamepad"></i></button> <b>Role Play Games</b></div>
+        			<div ><button onclick="location.href='sports.html';" class="dropdown-down-button"><i class="fa fa-dribbble"></i></button><b> Sports Games</b></div>
+        			<div ><button onclick="location.href='cart.html';" class="dropdown-down-button"><i class="fa fa-shopping-cart"></i></button> <b>Cart</b></div>
+        			<div ><button onclick="location.href='news.html';" class="dropdown-down-button"><i class="fa fa-newspaper-o"></i></button><b> News</b></div>
+        			<div style="margin-bottom: 3px"><button onclick="location.href='about.html';" class="dropdown-down-button"><i class="fa fa-group"></i></button><b> About Us</b></div>
+    			</div>
+				<!-- <h1 style="margin-top: -48px;margin-left: 75px;color:#D00000">Website Name</h1> -->
+			</div>
+
+
+			</div>
+			<div style="height:60px" class="col-sm-6">
+				<button onclick="location.href='login.html';" class="nav_btn" style="float: right;margin-right: -30px;"><i class="fa fa-sign-out"></i></button>
+				<button onclick="location.href='news.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="fa fa-newspaper-o"></i></button>
+				<button onclick="location.href='cart.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="fa fa-shopping-cart"></i></button>
+			</div>
+		</div>
+	</header>
+</head>
+<body class="back">	
+	<div class="container-fluid ">
+		<div class="col-sm-10 col-sm-offset-1 home_collage" >
+
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;"><b>What's New</b></h2>
+
+			</div>
+
+			<div class="col-sm-7 collage_pic" style="height: 470px;">
+				<img id="img1" class=" home_collage_img1" src="pics/home/collage_1.gif"> 
+			</div>
+			<div class="col-sm-5 collage_pic " style="height: 235px;">
+				<img id="img2" class=" home_collage_img2" src="pics/home/collage_2.gif">
+			</div>
+			<div class="col-sm-5 collage_pic" style="height: 235px;margin-top:0px;">
+				<img id="img3" class=" home_collage_img2" src="pics/home/collage_3.gif">
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid ">
+		<div class="col-sm-10 col-sm-offset-1 home_back" >
+
+
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;"><b>Adventure Games</b></h2>
+				<button onclick="location.href='adventure.html';" class="more_btn"><i class="fa fa-plus-square-o"></i></button>
+			</div>
+			<div class="col-sm-12 container home_block">
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/1_game.jpg">
+					<h4>Watch Dogs 2</h4>
+					<h5>Publisher:Ubisoft</h5>
+					<div class="content_btn_div">
+						<button onclick="location.href='game.html';" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹1,299</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/2_game.jpg">
+					<h4>Cyberpunk 2077</h4>
+					<h5>Publisher:CD Projekt</h5>
+					<div class="content_btn_div">
+						<button onclick="func2()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹-,---</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/3_game.jpg">
+					<h4>Assassian's Creed Odyssey</h4>
+					<h5>Publisher:Ubisoft</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹4,299</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/4_game.jpg">
+					<h4>GTA V</h4>
+					<h5>Publisher:Rockstar Games</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹2,499</h4>
+					</div>					
+				</div>				
+			</div>
+
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;"><b>Action Games</b></h2>
+				<button onclick="location.href='action.html';" class="more_btn"><i class="fa fa-plus-square-o"></i></button>
+			</div>
+			<div class="col-sm-12 container home_block">
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/5_game.jpg">
+					<h4>Battlefield V</h4>
+					<h5>Publisher:EA Games</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹4,299</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/6_game.jpg">
+					<h4>Farcry 5 </h4>
+					<h5>Publisher:Ubisoft</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹3,599</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/7_game.jpg">
+					<h4>God Of War 2018</h4>
+					<h5>Publisher:Sony Entertainment</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹3,699</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/8_game.png">
+					<h4>Detroit Become Human </h4>
+					<h5>Publisher:Sony Entertainment</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹3,390</h4>
+					</div>					
+				</div>				
+			</div>
+
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;"><b>Racing Games</b></h2>
+				<button onclick="location.href='racing.html';" class="more_btn"><i class="fa fa-plus-square-o"></i></button>
+			</div>
+			<div class="col-sm-12 container home_block">
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/9_game.jpg">
+					<h4>Forza Horizon 4</h4>
+					<h5>Publisher:Microsoft Studios</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹1,799</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/10_game.png">
+					<h4>The Crew 2</h4>
+					<h5>Publisher:Ubisoft</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹4,699</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/11_game.jpg">
+					<h4>F1 2018</h4>
+					<h5>Publisher:Codemasters</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹3,499</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/12_game.jpg">
+					<h4>Need For Speed Payback</h4>
+					<h5>Publisher:EA Games</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹3,190</h4>
+					</div>					
+				</div>				
+			</div>
+
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;"><b>Role Play Games</b></h2>
+				<button onclick="location.href='roleplay.html';" class="more_btn"><i class="fa fa-plus-square-o"></i></button>
+			</div>
+			<div class="col-sm-12 container home_block">
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/13_game.jpg">
+					<h4>The Witcher 3</h4>
+					<h5>Publisher:CD Projekt</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹2,399</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/14_game.png">
+					<h4>Monster Hunter World</h4>
+					<h5>Publisher:Capcom Co.</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹2,399</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/15_game.jpg">
+					<h4>The Elder Scrolls V: Skyrim</h4>
+					<h5>Publisher:Bethesda Softworks</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹2,599</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/16_game.jpg">
+					<h4>Fallout 76</h4>
+					<h5>Publisher:Bethesda Softworks</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹3,999</h4>
+					</div>					
+				</div>				
+			</div>
+
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;"><b>Sports Games</b></h2>
+				<button onclick="location.href='sports.html';" class="more_btn"><i class="fa fa-plus-square-o"></i></button>
+			</div>
+			<div class="col-sm-12 container home_block">
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/17_game.jpg">
+					<h4>FIFA 19</h4>
+					<h5>Publisher:EA Sports</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹3,099</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/18_game.jpg">
+					<h4>PES 2019</h4>
+					<h5>Publisher:Konami</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹2,199</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/19_game.jpg">
+					<h4>NBA 2K19</h4>
+					<h5>Publisher:2K</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹2,099</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/20_game.jpg">
+					<h4>Dirt Rally</h4>
+					<h5>Publisher:Codemasters</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹899</h4>
+					</div>					
+				</div>				
+			</div>
+
+		</div>
+	</div>	
+<script>
+	function func1()
+	{
+		alert("Game Added To The Cart");
+	}
+	function func2()
+	{
+		alert("Game Will Be Available Soon");
+	}
+</script>
+</body>
+</html>

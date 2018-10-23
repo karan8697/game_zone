@@ -1,0 +1,458 @@
+/*Home styling*/
+.home_header
+{
+	position: fixed;
+	height: 60px;
+	color:lightgrey;
+	background-color: #202020;
+	width:98.5%;
+	margin-left: 10px;
+	z-index:1;
+	opacity: 0.75;
+}
+.home_header:hover
+{
+	opacity: 1;
+	transition:0.5s ease;
+}
+.back
+{
+	background: url('../pics/home/background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+.nav_btn
+{
+	background-color:#505050;
+    color:#D00000;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    width: 80px;
+    height: 60px;
+    padding-top: 10px;
+}
+.nav_btn:hover
+{
+	text-shadow: 2px 2px 2px;
+	transition:0.5s ease;
+}
+.home_collage
+{
+	height:575px;
+	background-color:#202020;
+	margin-top: 75px;
+	border-radius: 4px;
+}
+.home_collage_img1
+{
+    margin-left:-15px;
+    width: 620px;
+    height: 466px;
+}
+.home_collage_img2
+{
+    margin-left:-15px;
+    width: 441px;
+    height: 231px;
+}
+.collage_pic
+{
+	margin-top:15px;
+	border:2px solid #202020;
+	background-color: #404040;
+}
+.home_back
+{
+	height:2065px;
+	background-color:#202020;
+	margin-top: 15px;
+	border-radius: 4px;
+}
+
+.home_block_head
+{
+	height:60px;
+	background-color: #404040;
+	margin-top: 15px;
+	color: #D00000 ;
+}
+.more_btn
+{
+	background-color: #505050;
+    color: #D00000;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    width: 80px;
+    height: 40px;
+    padding-top: 0px;
+    float: right;
+    margin-top: -47px;
+    margin-right: 0px;
+    border-radius: 3px;
+
+}
+.more_btn:hover
+{
+	text-shadow: 2px 2px 2px;
+	transition:0.5s ease;
+}
+.home_block_head:hover
+{
+	text-shadow: 2.5px 2.5px 2.5px;
+	transition:0.2s ease;
+}
+.home_block
+{
+	height:335px;
+	background-color: #505050;
+}
+.block_content
+{
+	height:305px;
+	background-color: #808080;
+	margin-top: 15px;
+	border-radius: 3px;
+	border-left:1px solid #505050;
+	border-right:1px solid #505050;
+	color:#303030;
+}
+.block_content:hover
+{
+	background-color: #404040;
+	color:lightgrey;
+}
+.content_img
+{
+	width:230px;
+	height:170px;
+	margin-top: 15px;
+	border-radius: 3px;
+}
+.content_btn_div
+{
+	width: 175px;
+    height: 40px;
+    padding-top: 3px;
+    background-color: #D00000;
+    border-radius:3px;
+    color:lightgrey;
+}
+.content_btn
+{
+	background-color:#505050;
+    color:#D00000;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    width: 75px;
+    height: 40px;
+    padding-top: 3px;
+    margin-top: -3px;
+}
+
+
+/*Dropdown Menu starts*/
+.dropbtn 
+{
+    background-color:#505050;
+    color:#D00000;
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    width: 80px;
+    height: 60px;
+    padding-top: 10px;
+}
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #505050;
+    min-width: 160px;
+    margin-left: -30px;
+    z-index: 1;
+}
+.dropdown-content div 
+{
+    background-color:#505050;
+    color:#D00000;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    width: 300px;
+    height: 60px;
+    padding-top: 10px;
+    display: block;
+    margin-top: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 3px;
+}
+.dropdown-content div:hover 
+{
+    background-color: #D00000;
+    color:lightgrey;
+}
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+.dropdown:hover .dropbtn
+{
+    background-color: #505050;
+    text-shadow: 2px 2px 2px;
+    transition:0.5s ease;
+}
+.dropdown-down-button
+{
+    width: 77px;
+    height: 60px;
+    margin-top: -10px;
+    margin-left: -10px;
+    background-color: #202020;
+    border: 0px;
+    font-size: 24px;
+    color:#A00000;
+}
+.dropdown-down-button:hover
+{
+	color:red;
+}
+/*Dropdown Menu Ends*/
+/*home styling ends*/
+/*adventure/action/racing.rpg/sports page styling starts*/
+.game_page_collage_img
+{
+    height: 470px;
+    margin-left: -15px;
+    width: 891px;   
+}
+.game_page_collage
+{
+    margin-top:15px; 
+    height: 470px;
+}
+.game_page_collage_btn
+{
+    height: 100px;
+    width: 50px;
+    background-color: #404040;
+    color:#D00000;
+    border:0px solid #404040;
+    font-size: 40px;
+    border-radius: 3px;
+    margin-left: 4px;
+    margin-top: 200px;
+}
+.game_page_collage_btn:hover
+{
+    background-color: #808080;
+}
+.game_page_content
+{
+    background-color: #808080;
+    height:525px;
+    margin-top:15px;
+    border-radius:3px;
+    border-left:1px solid #202020;
+    border-right:1px solid #202020;
+}
+.game_page_content:hover
+{
+    background-color: #404040;
+    color: lightgrey;
+}
+.game_content_img
+{
+    margin-top: 15px;
+    height: 200px;
+}
+.game_buy_btn
+{
+    height: 50px;
+    border: 0px;
+    width: 80px;
+    margin-left: -30px;
+    font-size: 28px;
+    background-color: #505050;
+    color: #D00000;
+}
+.icon
+{
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+}
+
+/*adventure/action/racing.rpg/sports page styling ends*/
+/*news styling starts*/
+.news_content
+{
+    margin-top: 15px;
+    background-color:#505050;
+    height:350px;
+    border-left:1px solid #202020;
+    border-right:1px solid #202020;
+    border-radius: 4px;
+}
+.news_headline
+{
+    height:75px;
+    background-color: #000000;
+    color:lightgrey;
+    opacity:0.75;
+    padding: 5px;
+    /*margin-top: 15px;*/
+}
+.news_news
+{
+    height:275px;
+    background-color: #000000;
+    color:lightgrey;
+    opacity:0.25;
+}
+.news_news:hover
+{
+    opacity:0.9;
+    transition: 0.3s ease;
+}
+/*news styling ends*/
+/*cart styling starts*/
+.cart_content
+{
+    margin-top: 15px;
+    height: 365px;
+    background-color: #808080;
+    border-left: 1px solid #202020;
+    border-right: 1px solid #202020;
+    border-radius:3px;
+    color: #303030;
+}
+.cart_content:hover 
+{
+    background-color: #404040;
+    color: lightgrey;
+}
+.buy_img
+{
+    margin-left: -15px;
+    margin-top: 15px;
+    height: 185px;
+    border-radius: 3px
+}
+.buy_btn_div
+{
+    background-color: yellow;
+    height: 50px;
+    margin-left: -18px;
+    margin-top: 15px;
+    width: 170px;
+    border-radius: 3px;
+    background-color: #D00000;
+    color: lightgrey;
+    font-size: 20px;
+}
+.btn_buy
+{
+    height: 50px;
+    width: 55px;
+    border: none;
+    background-color: #505050;
+    color: #D00000;
+    font-size: 24px;
+}
+/*cart styling ends*/
+/*game styling starts*/
+.game_hover:hover
+{
+    transform: scale(1.1,1.1);
+    transition: 0.3s ease;
+}
+/*game styling ends*/
+/*Login starts*/
+.login_header
+{
+    height:60px;
+    background-color: #202020;
+    color:lightgrey;
+
+}
+.form_head
+{
+    height:60px;
+    opacity:1;
+    background-color: #D00000;
+    color:lightgrey;
+    margin-top: -520px;
+}
+.form_head:hover
+{
+    text-shadow: 3px 3px 3px;
+}
+.login_form
+{
+    background-color: #202020;
+    opacity: 1;
+    height:375px;
+    color:lightgrey;
+}
+.login_input
+
+{
+    margin-left: 50px;
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-radius: 3px;
+    background-color: #808080;
+}
+.form_btn_div
+{
+    margin-left: 50px;
+    margin-top: 25px;
+    height: 40px;
+    border: 0px;
+    font-size: 24px;
+    background-color: #D00000;
+    border-radius: 3px;
+}
+.form_btn
+{
+    margin-left: -15px;
+    width: 60px;
+    height: 40px;
+    border: 0px;
+    font-size: 24px;
+    background-color: #505050;
+
+}
+.login_fade_1
+{
+    height:150px;
+    background-color: #D00000;
+    opacity:0.25;
+}
+.login_fade_2
+{
+    height:440px;
+    background-color: black;
+    opacity:0.5;
+}
+/*Login styling ends*/
+/*about styling starts*/
+
+.about_head
+{
+    height:75px;
+    background-color: black;
+    color:lightgrey;
+    opacity:0.75;
+    padding: 5px;
+}
+/*about styling ends*/

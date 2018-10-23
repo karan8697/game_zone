@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+	<header>
+		<div class="container-fluid home_header">
+			<div style="height:60px" class="col-sm-6">			
+				<!-- DropDown Menu -->
+				<div class="dropdown">
+    				<button style="margin-left: -30px;" class="dropbtn"><i class="fa fa-bars"></i></button>
+    				<div class="dropdown-content">
+        			<div ><button onclick="location.href='home.html';" class="dropdown-down-button"><i class="fa fa-home"></i></button><b> Home</b></div>
+        			<div ><button onclick="location.href='adventure.html';" class="dropdown-down-button"><i class="fa fa-road"></i></button> <b>Adventure Games</b></div>
+        			<div ><button onclick="location.href='action.html';" class="dropdown-down-button"><i class="fa fa-bullseye"></i></button> <b>Action Games</b></div>
+        			<div ><button onclick="location.href='racing.html';" class="dropdown-down-button"><i class="fa fa-car"></i></button> <b> Racing Games</b></div>
+        			<div ><button onclick="location.href='roleplay.html';" class="dropdown-down-button"><i class="fa fa-gamepad"></i></button> <b>Role Play Games</b></div>
+        			<div ><button onclick="location.href='sports.html';" class="dropdown-down-button"><i class="fa fa-dribbble"></i></button><b> Sports Games</b></div>
+        			<div ><button onclick="location.href='cart.html';" class="dropdown-down-button"><i class="fa fa-shopping-cart"></i></button> <b>Cart</b></div>
+        			<div ><button onclick="location.href='news.html';" class="dropdown-down-button"><i class="fa fa-newspaper-o"></i></button><b> News</b></div>
+        			<div style="margin-bottom: 3px"><button onclick="location.href='about.html';" class="dropdown-down-button"><i class="fa fa-group"></i></button><b> About Us</b></div>
+    			</div>
+			</div>
+
+
+			</div>
+			<div style="height:60px" class="col-sm-6">
+				<button onclick="location.href='login.html';" class="nav_btn" style="float: right;margin-right: -30px;"><i class="fa fa-sign-out"></i></button>
+				<button onclick="location.href='news.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="fa fa-newspaper-o"></i></button>
+				<button onclick="location.href='cart.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="fa fa-shopping-cart"></i></button>
+			</div>
+		</div>
+	</header>
+</head>
+<body class="back">
+	<div class="container-fluid ">
+		<div  class="col-sm-10 col-sm-offset-1 home_collage" style="height: 850px;" >
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">Cart</h2>
+			</div>
+			<div  id="div1" class="col-sm-6 cart_content">
+				<div class="col-sm-8" style="height:200px">
+					<img class="img-responsive buy_img" src="pics/home/7_game.jpg">
+				</div>
+				<div class="col-sm-4 " style="height:200px">
+					<div class="buy_btn_div">
+						<button onclick="func2(3699)" class="btn_buy"><i class="fa fa-money"></i></button>
+						₹3,699
+					</div>
+
+					<div class="buy_btn_div">
+						<button id="btn1" class="btn_buy"><i class="fa fa-times-circle"></i></button>
+						Remove
+					</div>
+				</div>
+				<h3 style="margin-top: 215px">God Of War 2018</h3>
+				<h4>Publisher:Sony Entertainment</h4>
+				<p style="width:500px;overflow-wrap: break-word;">
+					God of War is an action-adventure video game developed by Santa Monica Studio and published by Sony Interactive Entertainment. Released on April 20, 2018, for the PlayStation 4 console.
+				</p>
+			</div>
+			
+			<div id="div2" class="col-sm-6 cart_content">
+				<div class="col-sm-8" style="height:200px">
+					<img class="img-responsive buy_img" src="pics/home/9_game.jpg">
+				</div>
+				<div class="col-sm-4 " style="height:200px">
+					<div class="buy_btn_div">
+						<button  onclick="func2(1799)" class="btn_buy"><i class="fa fa-money"></i></button>
+						₹1,799
+					</div>
+
+					<div class="buy_btn_div">
+						<button id="btn2" class="btn_buy"><i class="fa fa-times-circle"></i></button>
+						Remove
+					</div>
+				</div>
+				<h3 style="margin-top: 215px">Forza Horizon 4</h3>
+				<h4>Publisher:Microsoft Studios</h4>
+				<p style="width:500px;overflow-wrap: break-word;">
+					Forza Horizon 4 is an open world racing video game developed by Playground Games and published by Microsoft Studios. It will be released on 2 October 2018 on Xbox One and Microsoft Windows
+				</p>
+			</div>
+
+			<div id="div3" class="col-sm-6 cart_content">
+				<div class="col-sm-8" style="height:200px">
+					<img class="img-responsive buy_img" src="pics/home/13_game.jpg">
+				</div>
+				<div class="col-sm-4 " style="height:200px">
+					<div class="buy_btn_div">
+						<button onclick="func2(2399)" class="btn_buy"><i class="fa fa-money"></i></button>
+						₹2,399
+					</div>
+
+					<div class="buy_btn_div">
+						<button id="btn3"class="btn_buy"><i class="fa fa-times-circle"></i></button>
+						Remove
+					</div>
+				</div>
+				<h3 style="margin-top: 215px">The Witcher 3</h3>
+				<h4>Publisher:CD Projekt</h4>
+				<p style="width:500px;overflow-wrap: break-word;">
+					The Witcher 3: Wild Hunt is an action role-playing game developed and published by CD Projekt for Microsoft Windows, PlayStation 4, and Xbox.
+				</p>
+			</div>
+
+			<div id="div4" class="col-sm-6 cart_content">
+				<div class="col-sm-8" style="height:200px">
+					<img class="img-responsive buy_img" src="pics/home/4_game.jpg">
+				</div>
+				<div class="col-sm-4 " style="height:200px">
+					<div class="buy_btn_div">
+						<button onclick="func2(2499)" class="btn_buy"><i class="fa fa-money"></i></button>
+						₹2,499
+					</div>
+
+					<div class="buy_btn_div">
+						<button id="btn4" class="btn_buy"><i class="fa fa-times-circle"></i></button>
+						Remove
+					</div>
+				</div>
+				<h3 style="margin-top: 215px">GTA V</h3>
+				<h4>Publisher:Rockstar Games</h4>
+				<p style="width:500px;overflow-wrap: break-word;">
+					Grand Theft Auto V is an action-adventure video game developed and published by Rockstar Games. It was released in September 2013 for PlayStation 3 and Xbox 360.
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid ">
+
+		<div  class="col-sm-10 col-sm-offset-1 home_collage" style="height: 425px;margin-top: 15px;" >
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">You May Also Like</h2>
+			</div>
+			<div class="col-sm-12 container home_block">
+				<marquee style="" onmouseover="this.stop()" onmouseout="this.start()">
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/14_game.png">
+					<h4>Monster Hunter World</h4>
+					<h5>Publisher:Capcom Co.</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹2,399</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/6_game.jpg">
+					<h4>Farcry 5 </h4>
+					<h5>Publisher:Ubisoft</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹3,599</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/3_game.jpg">
+					<h4>Assassian's Creed Odyssey</h4>
+					<h5>Publisher:Ubisoft</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹4,299</h4>
+					</div>					
+				</div>
+				<div class="col-sm-3 block_content">
+					<img  class="img-responsive content_img" src="pics/home/12_game.jpg">
+					<h4>Need For Speed Payback</h4>
+					<h5>Publisher:EA Games</h5>
+					<div class="content_btn_div">
+						<button onclick="func1()" class="content_btn"><i class="fa fa-cart-plus"></i></button>
+						<h4 style="margin-top: -28px;margin-left: 91px;">₹3,190</h4>
+					</div>					
+				</div>	
+				</marquee>				
+			</div>
+
+		</div>
+
+	
+
+
+	</div>
+
+<script>
+		$(document).ready
+		(			
+			function()
+			{
+				$("#btn1").click
+				(
+					function()
+					{
+						alert("Game Removed From Cart");
+						$("#div1").fadeTo("fast",0);
+					}
+				);	
+			}
+		);
+
+		$(document).ready
+		(			
+			function()
+			{
+				$("#btn2").click
+				(
+					function()
+					{
+						alert("Game Removed From Cart");
+						$("#div2").fadeTo("fast",0);
+					}
+				);	
+			}
+		);
+		$(document).ready
+		(			
+			function()
+			{
+				$("#btn3").click
+				(
+					function()
+					{
+						alert("Game Removed From Cart");
+						$("#div3").fadeTo("fast",0);
+					}
+				);	
+			}
+		);
+		$(document).ready
+		(			
+			function()
+			{
+				$("#btn4").click
+				(
+					function()
+					{
+						alert("Game Removed From Cart");
+						$("#div4").fadeTo("fast",0);
+					}
+				);	
+			}
+		);
+
+	function func1()
+	{
+		alert("Game Added To The Cart");
+	}
+	function func2(x)
+	{
+		alert("Your Charges Are:₹"+x);
+	}
+</script>
+
+</body>	

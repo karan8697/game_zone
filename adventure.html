@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+	<header>
+		<div class="container-fluid home_header">
+			<div style="height:60px" class="col-sm-6">			
+				<!-- DropDown Menu -->
+				<div class="dropdown">
+    				<button style="margin-left: -30px;" class="dropbtn"><i class="fa fa-bars"></i></button>
+    				<div class="dropdown-content">
+        			<div ><button onclick="location.href='home.html';" class="dropdown-down-button"><i class="fa fa-home"></i></button><b> Home</b></div>
+        			<div ><button onclick="location.href='adventure.html';" class="dropdown-down-button"><i class="fa fa-road"></i></button> <b>Adventure Games</b></div>
+        			<div ><button onclick="location.href='action.html';" class="dropdown-down-button"><i class="fa fa-bullseye"></i></button> <b>Action Games</b></div>
+        			<div ><button onclick="location.href='racing.html';" class="dropdown-down-button"><i class="fa fa-car"></i></button> <b> Racing Games</b></div>
+        			<div ><button onclick="location.href='roleplay.html';" class="dropdown-down-button"><i class="fa fa-gamepad"></i></button> <b>Role Play Games</b></div>
+        			<div ><button onclick="location.href='sports.html';" class="dropdown-down-button"><i class="fab fa-dribbble"></i></button><b> Sports Games</b></div>
+        			<div ><button onclick="location.href='cart.html';" class="dropdown-down-button"><i class="fas fa-shopping-cart"></i></button> <b>Cart</b></div>
+        			<div ><button onclick="location.href='news.html';" class="dropdown-down-button"><i class="far fa-newspaper"></i></button><b> News</b></div>
+        			<div style="margin-bottom: 3px"><button onclick="location.href='about.html';" class="dropdown-down-button"><i class="fas fa-users"></i></button><b> About Us</b></div>
+    			</div>
+			</div>
+
+
+			</div>
+			<div style="height:60px" class="col-sm-6">
+				<button onclick="location.href='login.html';" class="nav_btn" style="float: right;margin-right: -30px;"><i class="fas fa-sign-out-alt"></i></button>
+				<button onclick="location.href='news.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="far fa-newspaper"></i></button>
+				<button onclick="location.href='cart.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="fa fa-shopping-cart"></i></button>
+			</div>
+		</div>
+	</header>
+</head>
+<body class="back">
+	<div class="container-fluid ">
+		<div class="col-sm-10 col-sm-offset-1 home_collage" >
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">Latest Enteries</h2>
+			</div>
+			<div class="col-sm-1" >
+				<button id="but1" class="game_page_collage_btn"><</button>
+			</div>
+			<div class="col-sm-10 game_page_collage " >
+				<img id="img1" class="game_page_collage_img" src="pics/home/22_game.jpg">
+			</div>
+			<div class="col-sm-1">
+				<button id="but2" class="game_page_collage_btn">></button>
+			</div>
+
+		</div>
+
+		<div class="col-sm-10 col-sm-offset-1 home_back" style="height: 1710px">
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">Adventure Games</h2>
+			</div>
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/1_game.jpg">
+				<h3>Watch Dogs 2</h3>
+				<h4>Publisher:Ubisoft</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Watch Dogs 2 is an action-adventure video game developed by Ubisoft Montreal and published by Ubisoft. It is the sequel to 2014's Watch Dogs.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="location.href='game.html';"class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹1,299</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/2_game.jpg">
+				<h3>Cyberpunk 2077</h3>
+				<h4>Publisher:CD Projekt</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Releasing for Microsoft Windows, PlayStation 4, and Xbox One. Adapted from the 1988 tabletop game Cyberpunk 2020, it is set fifty-seven years later in dystopian Night City, California.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func2()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹-,---</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/3_game.jpg">
+				<h3>Assassian's Creed Odyssey</h3>
+				<h4>Publisher:Ubisoft</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Assassin's Creed Odyssey is an upcoming action role-playing video game published by Ubisoft. It is the eleventh major installment and the successor to 2017's Origins.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹4,299</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/4_game.jpg">
+				<h3>GTA V</h3>
+				<h4>Publisher:Rockstar Games</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Grand Theft Auto V is an action-adventure video game developed and published by Rockstar Games. It was released in September 2013 for PlayStation 3 and Xbox 360.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹2,499</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/21_game.jpg">
+				<h3> Marvel Spider-Man</h3>
+				<h4>Publisher:Sony Entertainment</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Peter Parker is a very intelligent young man. But when Peter gets bitten by a radioactive spider during a school field trip to Oscorp, he develops powers including the ability to shoot webbing.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹3,999</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> </h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img  class="img-responsive game_content_img" src="pics/home/22_game.jpg">
+				<h3>Shadow of the Tomb Raider</h3>
+				<h4>Publisher:Square Enix</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Shadow of the Tomb Raider continues the narrative from the 2013 game Tomb Raider and its sequel Rise of the Tomb Raider, and is the twelfth mainline entry in the Tomb Raider series.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹2,999</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/23_game.jpg">
+				<h3>Red Dead Redemption 2</h3>
+				<h4>Publisher:Rockstar Games</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Red Dead Redemption 2 is an upcoming Western-themed action-adventure video game developed and published by Rockstar Games. It is scheduled to be released for PlayStation 4 and Xbox One on October 26, 2018. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹3,999</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i> </h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/24_game.png">
+				<h3>Uncharted: The Lost Legacy</h3>
+				<h4>Publisher:Sony Entertainment</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Uncharted: The Lost Legacy is an action-adventure game developed by Naughty Dog and published by Sony Interactive Entertainment in August 2017 for the PlayStation 4. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹1,799</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> </h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/25_game.png">
+				<h3>Adventures of Captain Spirit</h3>
+				<h4>Publisher:Square Enix</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Shortly after E3 2018, we were able to get our hands on Dontnod  The Awesome Adventures of Captain Spirit. This is a graphic adventure style game that was meant to give fans look into the upcoming sequel.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">Free</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+<script>
+	$(document).ready
+	(			
+		function()
+		{
+			$("#but2").click
+			(
+				function()
+				{
+					$('#img1').attr('src', 'pics/home/2_game.jpg');
+					$("#but2").click
+					(
+						function()
+						{
+							$('#img1').attr('src', 'pics/home/21_game.jpg');
+							$("#but2").click
+							(
+								function()
+								{
+									$('#img1').attr('src', 'pics/home/23_game.jpg');
+									$("#but2").click
+									(
+										function()
+										{
+											$('#img1').attr('src', 'pics/home/3_game.jpg');
+										}
+									);
+								}
+							);	
+						}
+					);	
+				}
+			);	
+		}
+	);	
+	$(document).ready
+	(			
+		function()
+		{
+			$("#but1").click
+			(
+				function()
+				{
+					$('#img1').attr('src', 'pics/home/23_game.jpg');
+					$("#but1").click
+					(
+						function()
+						{
+							$('#img1').attr('src', 'pics/home/21_game.jpg');
+							$("#but1").click
+							(
+								function()
+								{
+									$('#img1').attr('src', 'pics/home/2_game.jpg');
+									$("#but1").click
+									(
+										function()
+										{
+											$('#img1').attr('src', 'pics/home/22_game.jpg');
+										}
+									);
+								}
+							);	
+						}
+					);	
+				}
+			);	
+		}
+	);	
+
+	function func1()
+	{
+		alert("Game Added To Cart");
+	}
+	function func2()
+	{
+		alert("Game Will Be Available Soon");
+	}
+</script>	
+</body>
