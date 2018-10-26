@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+	<header>
+		<div class="container-fluid home_header">
+			<div style="height:60px" class="col-sm-6">			
+				<!-- DropDown Menu -->
+				<div class="dropdown">
+    				<button style="margin-left: -30px;" class="dropbtn"><i class="fa fa-bars"></i></button>
+    				<div class="dropdown-content">
+        			<div ><button onclick="location.href='home.html';" class="dropdown-down-button"><i class="fa fa-home"></i></button><b> Home</b></div>
+        			<div ><button onclick="location.href='adventure.html';" class="dropdown-down-button"><i class="fa fa-road"></i></button> <b>Adventure Games</b></div>
+        			<div ><button onclick="location.href='action.html';" class="dropdown-down-button"><i class="fa fa-bullseye"></i></button> <b>Action Games</b></div>
+        			<div ><button onclick="location.href='racing.html';" class="dropdown-down-button"><i class="fa fa-car"></i></button> <b> Racing Games</b></div>
+        			<div ><button onclick="location.href='roleplay.html';" class="dropdown-down-button"><i class="fa fa-gamepad"></i></button> <b>Role Play Games</b></div>
+        			<div ><button onclick="location.href='sports.html';" class="dropdown-down-button"><i class="fab fa-dribbble"></i></button><b> Sports Games</b></div>
+        			<div ><button onclick="location.href='cart.html';" class="dropdown-down-button"><i class="fa fa-shopping-cart"></i></button> <b>Cart</b></div>
+        			<div ><button onclick="location.href='news.html';" class="dropdown-down-button"><i class="far fa-newspaper"></i></button><b> News</b></div>
+        			<div style="margin-bottom: 3px"><button onclick="location.href='about.html';" class="dropdown-down-button"><i class="fas fa-users"></i></button><b> About Us</b></div>
+    			</div>
+			</div>
+
+
+			</div>
+			<div style="height:60px" class="col-sm-6">
+				<button onclick="location.href='login.html';" class="nav_btn" style="float: right;margin-right: -30px;"><i class="fas fa-sign-out-alt"></i></button>
+				<button onclick="location.href='news.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="far fa-newspaper"></i></button>
+				<button onclick="location.href='cart.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="fa fa-shopping-cart"></i></button>
+			</div>
+		</div>
+	</header>
+</head>
+<body class="back">
+	<div class="container-fluid ">
+		<div class="col-sm-10 col-sm-offset-1 home_collage" >
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">Latest Enteries</h2>
+			</div>
+			<div class="col-sm-1" >
+				<button id="but1" class="game_page_collage_btn"><</button>
+			</div>
+			<div class="col-sm-10 game_page_collage " >
+				<img id="img1" class="game_page_collage_img" src="pics/home/9_game.jpg">
+			</div>
+			<div class="col-sm-1">
+				<button id="but2" class="game_page_collage_btn">></button>
+			</div>
+
+		</div>
+
+		<div class="col-sm-10 col-sm-offset-1 home_back" style="height: 1710px">
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">Racing Games</h2>
+			</div>
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/9_game.jpg">
+				<h3>Forza Horizon 4</h3>
+				<h4>Publisher:Microsoft Studios</h4>
+				<p style="width:325px;overflow-wrap: break-word;">
+					Forza Horizon 4 is an open world racing video game developed by Playground Games and published by Microsoft Studios. It will be released on 2 October 2018 on Xbox One and Microsoft Windows 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹1,799</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/10_game.png">
+				<h3>The Crew 2</h3>
+				<h4>Publisher:Ubisoft</h4>
+				<p style="width:325px;overflow-wrap: break-word;">
+					The Crew 2 is an open world racing video game developed by Ivory Tower and published by Ubisoft for Microsoft Windows, PlayStation 4 and Xbox One.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹4,699</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img  class="img-responsive game_content_img" src="pics/home/11_game.jpg">
+				<h3>F1 2018</h3>
+				<h4>Publisher:Codemasters</h4>
+				<p style="width:320px;overflow-wrap: break-word;">
+					F1 2018 is a racing game and 10 instalment in the Formula One video game franchise developed and published by Codemasters. The game is based on the 2018 F1 World Championship.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹3,499</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img  class="img-responsive game_content_img" src="pics/home/12_game.jpg">
+				<h3>Need For Speed Payback</h3>
+				<h4>Publisher:EA Games</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Need for Speed Payback is a racing video game developed by Ghost Games and published by Electronic Arts for Microsoft Windows, PlayStation 4 and Xbox One. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹3,190</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/32_game.jpg">
+				<h3>Project CARS 2</h3>
+				<h4>Publisher:Bandai Namco </h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Project CARS 2 is a motorsport racing simulator video game developed by Slightly Mad Studios and published and distributed by Bandai Namco Entertainment.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹2,699</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/31_game.jpg">
+				<h3>Wreckfest</h3>
+				<h4>Publisher:THQ Nordic</h4>
+				<p style="width:325px;overflow-wrap: break-word;">
+					Wreckfest is developed by Bugbear Entertainment and published by THQ Nordic and is described as the spiritual successor to the FlatOut series and cross between FlatOut and Destruction Derby.	
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹3,199</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/33_game.jpg">
+				<h3>Gran Turismo Sport</h3>
+				<h4>Publisher:Sony Entertainment </h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Gran Turismo Sport is a racing video game developed by Polyphony Digital and published by Sony Interactive Entertainment for PlayStation 4.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹1,960</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/34_game.jpg">
+				<h3>Gravel</h3>
+				<h4>Publisher:Square Enix</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Gravel is a 2018 racing video game developed by Milestone S.r.l. and published by Milestone and Square Enix for Microsoft Windows, PlayStation 4 and Xbox One. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹1,285</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/35_game.jpeg">
+				<h3>WRC 7</h3>
+				<h4>Publisher:Bigben Interactive</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					WRC 7, also known as WRC 7: World Rally Championship, is a racing video game based on the 2017 World Rally Championship season. The game was developed by Kylotonn.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹1,749</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+<script>
+	$(document).ready
+	(			
+		function()
+		{
+			$("#but2").click
+			(
+				function()
+				{
+					$('#img1').attr('src', 'pics/home/32_game.jpg');
+					$("#but2").click
+					(
+						function()
+						{
+							$('#img1').attr('src', 'pics/home/10_game.png');
+							$("#but2").click
+							(
+								function()
+								{
+									$('#img1').attr('src', 'pics/home/35_game.jpeg');
+									$("#but2").click
+									(
+										function()
+										{
+											$('#img1').attr('src', 'pics/home/12_game.jpg');
+										}
+									);
+								}
+							);	
+						}
+					);	
+				}
+			);	
+		}
+	);	
+	$(document).ready
+	(			
+		function()
+		{
+			$("#but1").click
+			(
+				function()
+				{
+					$('#img1').attr('src', 'pics/home/35_game.jpeg');
+					$("#but1").click
+					(
+						function()
+						{
+							$('#img1').attr('src', 'pics/home/10_game.png');
+							$("#but1").click
+							(
+								function()
+								{
+									$('#img1').attr('src', 'pics/home/32_game.jpg');
+									$("#but1").click
+									(
+										function()
+										{
+											$('#img1').attr('src', 'pics/home/9_game.jpg');
+										}
+									);
+								}
+							);	
+						}
+					);	
+				}
+			);	
+		}
+	);	
+	function func1()
+	{
+		alert("Game Added To Cart");
+	}
+</script>	
+</body>

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+	<header>
+		<div class="container-fluid home_header">
+			<div style="height:60px" class="col-sm-6">			
+				<!-- DropDown Menu -->
+				<div class="dropdown">
+    				<button style="margin-left: -30px;" class="dropbtn"><i class="fa fa-bars"></i></button>
+    				<div class="dropdown-content">
+        			<div ><button onclick="location.href='home.html';" class="dropdown-down-button"><i class="fa fa-home"></i></button><b> Home</b></div>
+        			<div ><button onclick="location.href='adventure.html';" class="dropdown-down-button"><i class="fa fa-road"></i></button> <b>Adventure Games</b></div>
+        			<div ><button onclick="location.href='action.html';" class="dropdown-down-button"><i class="fa fa-bullseye"></i></button> <b>Action Games</b></div>
+        			<div ><button onclick="location.href='racing.html';" class="dropdown-down-button"><i class="fa fa-car"></i></button> <b> Racing Games</b></div>
+        			<div ><button onclick="location.href='roleplay.html';" class="dropdown-down-button"><i class="fa fa-gamepad"></i></button> <b>Role Play Games</b></div>
+        			<div ><button onclick="location.href='sports.html';" class="dropdown-down-button"><i class="fab fa-dribbble"></i></button><b> Sports Games</b></div>
+        			<div ><button onclick="location.href='cart.html';" class="dropdown-down-button"><i class="fa fa-shopping-cart"></i></button> <b>Cart</b></div>
+        			<div ><button onclick="location.href='news.html';" class="dropdown-down-button"><i class="far fa-newspaper"></i></button><b> News</b></div>
+        			<div style="margin-bottom: 3px"><button onclick="location.href='about.html';" class="dropdown-down-button"><i class="fas fa-users"></i></button><b> About Us</b></div>
+    			</div>
+			</div>
+
+
+			</div>
+			<div style="height:60px" class="col-sm-6">
+				<button onclick="location.href='login.html';" class="nav_btn" style="float: right;margin-right: -30px;"><i class="fas fa-sign-out-alt"></i></button>
+				<button onclick="location.href='news.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="far fa-newspaper"></i></button>
+				<button onclick="location.href='cart.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="fa fa-shopping-cart"></i></button>
+			</div>
+		</div>
+	</header>
+</head>
+<body class="back">
+	<div class="container-fluid ">
+		<div class="col-sm-10 col-sm-offset-1 home_collage" >
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">Latest Enteries</h2>
+			</div>
+			<div class="col-sm-1" >
+				<button id="but1" class="game_page_collage_btn"><</button>
+			</div>
+			<div class="col-sm-10 game_page_collage " >
+				<img id="img1" class="game_page_collage_img" src="pics/home/17_game.jpg">
+			</div>
+			<div class="col-sm-1">
+				<button id="but2" class="game_page_collage_btn">></button>
+			</div>
+
+		</div>
+
+		<div class="col-sm-10 col-sm-offset-1 home_back" style="height: 1710px">
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">Sports Games</h2>
+			</div>
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/17_game.jpg">
+				<h3>FIFA 19</h3>
+				<h4>Publisher:EA Sports</h4>
+				<p style="width:325px;overflow-wrap: break-word;">
+					FIFA 19 is a football simulation video game developed by EA Vancouver and EA Bucharest, as part of FIFA series. Announced on 6 June 2018 for its E3 2018 press conference. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹3,099</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/18_game.jpg">
+				<h3>PES 2019</h3>
+				<h4>Publisher:Konami</h4>
+				<p style="width:325px;overflow-wrap: break-word;">
+					Pro Evolution Soccer 2019 is a football simulation video game developed by PES Productions and published by Konami for Microsoft Windows, PlayStation 4 and Xbox One.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹2,199</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img  class="img-responsive game_content_img" src="pics/home/19_game.jpg">
+				<h3>NBA 2K19</h3>
+				<h4>Publisher:2K</h4>
+				<p style="width:320px;overflow-wrap: break-word;">
+					NBA 2K19 is a basketball simulation video game developed by Visual Concepts and published by 2K Sports, based on the National Basketball Association.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹2,099</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img  class="img-responsive game_content_img" src="pics/home/20_game.jpg">
+				<h3>Dirt Rally</h3>
+				<h4>Publisher:Codemasters</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Dirt Rally is a racing video game developed and published by Codemasters for Microsoft Windows. A Steam Early Access version of the game was released on 27 April 2015. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹899</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/41_game.jpg">
+				<h3>Madden NFL 19</h3>
+				<h4>Publisher:EA Games</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Madden NFL 19 is an American football sports video game based on the National Football League, developed and published by EA Sports for Xbox,Playstaion 4 And Windows.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹6,799</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/42_game.jpg">
+				<h3>EA Sports UFC 3</h3>
+				<h4>Publisher:EA Sports</h4>
+				<p style="width:325px;overflow-wrap: break-word;">
+					EA Sports UFC 3 is a mixed martial arts fighting video game developed by EA Canada and was published by EA Sports. Conor McGregor, the previous cover fighter of EA Sports UFC 2.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹4,399</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/43_game.jpg">
+				<h3>NHL 18</h3>
+				<h4>Publisher:EA Sports</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					NHL 18 is an ice hockey simulation video game developed by EA Canada and published by EA Sports. It was released on PlayStation 4 and Xbox One on September 15, 2017.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹2,199</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/44_game.jpg">
+				<h3>Laser League</h3>
+				<h4>Publisher:505 Games</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Laser League is a futuristic sports video game by Roll7, the creators of OlliOlli. Two teams of twos compete to outlast their opponents by setting up moving lasers in an arena. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹1,350</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/45_game.jpg">
+				<h3>Rocket League</h3>
+				<h4>Publisher:Psyonix</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Rocket League is a vehicular soccer video game developed and published by Psyonix. Game was first released for Windows and PlayStation 4 , with ports for Xbox One.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹699</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+<script>
+	$(document).ready
+	(			
+		function()
+		{
+			$("#but2").click
+			(
+				function()
+				{
+					$('#img1').attr('src', 'pics/home/41_game.jpg');
+					$("#but2").click
+					(
+						function()
+						{
+							$('#img1').attr('src', 'pics/home/42_game.jpg');
+							$("#but2").click
+							(
+								function()
+								{
+									$('#img1').attr('src', 'pics/home/18_game.jpg');
+									$("#but2").click
+									(
+										function()
+										{
+											$('#img1').attr('src', 'pics/home/19_game.jpg');
+										}
+									);
+								}
+							);	
+						}
+					);	
+				}
+			);	
+		}
+	);	
+	$(document).ready
+	(			
+		function()
+		{
+			$("#but1").click
+			(
+				function()
+				{
+					$('#img1').attr('src', 'pics/home/18_game.jpg');
+					$("#but1").click
+					(
+						function()
+						{
+							$('#img1').attr('src', 'pics/home/42_game.jpg');
+							$("#but1").click
+							(
+								function()
+								{
+									$('#img1').attr('src', 'pics/home/41_game.jpg');
+									$("#but1").click
+									(
+										function()
+										{
+											$('#img1').attr('src', 'pics/home/17_game.jpg');
+										}
+									);
+								}
+							);	
+						}
+					);	
+				}
+			);	
+		}
+	);	
+	function func1()
+	{
+		alert("Game Added To Cart");
+	}
+</script>	
+</body>
