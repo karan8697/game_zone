@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+	<header>
+		<div class="container-fluid home_header">
+			<div style="height:60px" class="col-sm-6">			
+				<!-- DropDown Menu -->
+				<div class="dropdown">
+    				<button style="margin-left: -30px;" class="dropbtn"><i class="fa fa-bars"></i></button>
+    				<div class="dropdown-content">
+        			<div ><button onclick="location.href='home.html';" class="dropdown-down-button"><i class="fa fa-home"></i></button><b> Home</b></div>
+        			<div ><button onclick="location.href='adventure.html';" class="dropdown-down-button"><i class="fa fa-road"></i></button> <b>Adventure Games</b></div>
+        			<div ><button onclick="location.href='action.html';" class="dropdown-down-button"><i class="fa fa-bullseye"></i></button> <b>Action Games</b></div>
+        			<div ><button onclick="location.href='racing.html';" class="dropdown-down-button"><i class="fa fa-car"></i></button> <b> Racing Games</b></div>
+        			<div ><button onclick="location.href='roleplay.html';" class="dropdown-down-button"><i class="fa fa-gamepad"></i></button> <b>Role Play Games</b></div>
+        			<div ><button onclick="location.href='sports.html';" class="dropdown-down-button"><i class="fab fa-dribbble"></i></button><b> Sports Games</b></div>
+        			<div ><button onclick="location.href='cart.html';" class="dropdown-down-button"><i class="fa fa-shopping-cart"></i></button> <b>Cart</b></div>
+        			<div ><button onclick="location.href='news.html';" class="dropdown-down-button"><i class="far fa-newspaper"></i></button><b> News</b></div>
+        			<div style="margin-bottom: 3px"><button onclick="location.href='about.html';" class="dropdown-down-button"><i class="fas fa-users"></i></button><b> About Us</b></div>
+    			</div>
+			</div>
+
+
+			</div>
+			<div style="height:60px" class="col-sm-6">
+				<button onclick="location.href='login.html';" class="nav_btn" style="float: right;margin-right: -30px;"><i class="fas fa-sign-out-alt"></i></button>
+				<button onclick="location.href='news.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="far fa-newspaper"></i></button>
+				<button onclick="location.href='cart.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="fa fa-shopping-cart"></i></button>
+			</div>
+		</div>
+	</header>
+</head>
+<body class="back">
+	<div class="container-fluid ">
+		<div class="col-sm-10 col-sm-offset-1 home_collage" >
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">Latest Enteries</h2>
+			</div>
+			<div class="col-sm-1" >
+				<button id="but1" class="game_page_collage_btn"><</button>
+			</div>
+			<div class="col-sm-10 game_page_collage " >
+				<img id="img1" class="game_page_collage_img" src="pics/home/26_game.jpg">
+			</div>
+			<div class="col-sm-1">
+				<button id="but2" class="game_page_collage_btn">></button>
+			</div>
+
+		</div>
+
+		<div class="col-sm-10 col-sm-offset-1 home_back" style="height: 1710px">
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">Action Games</h2>
+			</div>
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/5_game.jpg">
+				<h3>Battlefield V</h3>
+				<h4>Publisher:EA Games</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Battlefield V, also known as Battlefield 5, is an upcoming first-person shooter video game developed by EA DICE. Battlefield V is the sixteenth installment in the Battlefield series.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹4,299</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/6_game.jpg">
+				<h3>Farcry 5</h3>
+				<h4>Publisher:Ubisoft</h4>
+				<p style="width:325px;overflow-wrap: break-word;">
+					Far Cry 5 is an action-adventure first-person shooter video game developed by Ubisoft Montreal and Ubisoft Toronto and published by Ubisoft for Microsoft Windows, PlayStation 4 and Xbox One.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹3,599</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img  class="img-responsive game_content_img" src="pics/home/7_game.jpg">
+				<h3>God Of War 2018</h3>
+				<h4>Publisher:Sony Entertainment</h4>
+				<p style="width:320px;overflow-wrap: break-word;">
+					God of War is an action-adventure video game developed by Santa Monica Studio and published by Sony Interactive Entertainment. Released on April 20, 2018, for the PlayStation 4 console.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹3,699</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> </h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img  class="img-responsive game_content_img" src="pics/home/8_game.png">
+				<h3>Detroit Become Human</h3>
+				<h4>Publisher:Sony Entertainment</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Detroit: Become Human is an adventure game developed by Quantic Dream and published by Sony Interactive Entertainment for PlayStation 4, released worldwide on 25 May 2018.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹3,390</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> </h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/26_game.jpg">
+				<h3>PUBG</h3>
+				<h4>Publisher:PUBG Corporation</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					PlayerUnknown's Battlegrounds is an online multiplayer battle royale game developed and published by PUBG Corporation, a subsidiary of South Korean video game company Bluehole.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹1,499</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/27_game.jpg">
+				<h3>Wolfenstein II</h3>
+				<h4>Publisher:Bethesda Softworks</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Wolfenstein II: The New Colossus is an action-adventure first-person shooter video game developed by MachineGames and published by Bethesda Softworks. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹1,680</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/28_game.png">
+				<h3>Call of Duty: Black Ops 4</h3>
+				<h4>Publisher:Activision</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Call of Duty: Black Ops 4 is an upcoming multiplayer first-person shooter developed by Treyarch and published by Activision. It is scheduled to be released worldwide on October 12, 2018.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()"  class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹3,789</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/29_game.jpg">
+				<h3>Just Cause 4</h3>
+				<h4>Publisher:Square Enix</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Just Cause 4 is an upcoming action-adventure game developed by Avalanche Studios and published by Square Enix. It is the fourth game in the Just Cause series and the sequel to 2015's Just Cause 3. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹4,320</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/30_game.jpg">
+				<h3>Hitman 2</h3>
+				<h4>Publisher:Warner Bros</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Hitman 2 is an upcoming stealth video game developed by IO Interactive and published by Warner Bros. Interactive Entertainment for Microsoft Windows, PlayStation 4, and Xbox One.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹1,429</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+<script>
+	$(document).ready
+	(			
+		function()
+		{
+			$("#but2").click
+			(
+				function()
+				{
+					$('#img1').attr('src', 'pics/home/7_game.jpg');
+					$("#but2").click
+					(
+						function()
+						{
+							$('#img1').attr('src', 'pics/home/28_game.png');
+							$("#but2").click
+							(
+								function()
+								{
+									$('#img1').attr('src', 'pics/home/8_game.png');
+									$("#but2").click
+									(
+										function()
+										{
+											$('#img1').attr('src', 'pics/home/6_game.jpg');
+										}
+									);
+								}
+							);	
+						}
+					);	
+				}
+			);	
+		}
+	);	
+	$(document).ready
+	(			
+		function()
+		{
+			$("#but1").click
+			(
+				function()
+				{
+					$('#img1').attr('src', 'pics/home/8_game.png');
+					$("#but1").click
+					(
+						function()
+						{
+							$('#img1').attr('src', 'pics/home/28_game.png');
+							$("#but1").click
+							(
+								function()
+								{
+									$('#img1').attr('src', 'pics/home/7_game.jpg');
+									$("#but1").click
+									(
+										function()
+										{
+											$('#img1').attr('src', 'pics/home/26_game.jpg');
+										}
+									);
+								}
+							);	
+						}
+					);	
+				}
+			);	
+		}
+	);	
+
+	function func1()
+	{
+		alert("Game Added To Cart");
+	}
+</script>	
+</body>

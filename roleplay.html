@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+	<header>
+		<div class="container-fluid home_header">
+			<div style="height:60px" class="col-sm-6">			
+				<!-- DropDown Menu -->
+				<div class="dropdown">
+    				<button style="margin-left: -30px;" class="dropbtn"><i class="fa fa-bars"></i></button>
+    				<div class="dropdown-content">
+        			<div ><button onclick="location.href='home.html';" class="dropdown-down-button"><i class="fa fa-home"></i></button><b> Home</b></div>
+        			<div ><button onclick="location.href='adventure.html';" class="dropdown-down-button"><i class="fa fa-road"></i></button> <b>Adventure Games</b></div>
+        			<div ><button onclick="location.href='action.html';" class="dropdown-down-button"><i class="fa fa-bullseye"></i></button> <b>Action Games</b></div>
+        			<div ><button onclick="location.href='racing.html';" class="dropdown-down-button"><i class="fa fa-car"></i></button> <b> Racing Games</b></div>
+        			<div ><button onclick="location.href='roleplay.html';" class="dropdown-down-button"><i class="fa fa-gamepad"></i></button> <b>Role Play Games</b></div>
+        			<div ><button onclick="location.href='sports.html';" class="dropdown-down-button"><i class="fab fa-dribbble"></i></button><b> Sports Games</b></div>
+        			<div ><button onclick="location.href='cart.html';" class="dropdown-down-button"><i class="fa fa-shopping-cart"></i></button> <b>Cart</b></div>
+        			<div ><button onclick="location.href='news.html';" class="dropdown-down-button"><i class="far fa-newspaper"></i></button><b> News</b></div>
+        			<div style="margin-bottom: 3px"><button onclick="location.href='about.html';" class="dropdown-down-button"><i class="fas fa-users"></i></button><b> About Us</b></div>
+    			</div>
+			</div>
+
+
+			</div>
+			<div style="height:60px" class="col-sm-6">
+				<button onclick="location.href='login.html';" class="nav_btn" style="float: right;margin-right: -30px;"><i class="fas fa-sign-out-alt"></i></button>
+				<button onclick="location.href='news.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="far fa-newspaper"></i></button>
+				<button onclick="location.href='cart.html';" class="nav_btn" style="float: right;margin-right: 2px;width: 60px;"><i class="fa fa-shopping-cart"></i></button>
+			</div>
+		</div>
+	</header>
+</head>
+<body class="back">
+	<div class="container-fluid ">
+		<div class="col-sm-10 col-sm-offset-1 home_collage" >
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">Latest Enteries</h2>
+			</div>
+			<div class="col-sm-1" >
+				<button id="but1" class="game_page_collage_btn"><</button>
+			</div>
+			<div class="col-sm-10 game_page_collage " >
+				<img id="img1" class="game_page_collage_img" src="pics/home/37_game.jpg">
+			</div>
+			<div class="col-sm-1">
+				<button id="but2" class="game_page_collage_btn">></button>
+			</div>
+
+		</div>
+
+		<div class="col-sm-10 col-sm-offset-1 home_back" style="height: 1710px">
+			<div class="col-sm-12  container-fluid home_block_head">
+				<h2 style="margin-top: 14px;">Role Play Games</h2>
+			</div>
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/13_game.jpg">
+				<h3>The Witcher 3</h3>
+				<h4>Publisher:CD Projekt</h4>
+				<p style="width:325px;overflow-wrap: break-word;">
+					The Witcher 3: Wild Hunt is an action role-playing game developed and published by CD Projekt for Microsoft Windows, PlayStation 4, and Xbox. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹2,399</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/14_game.png">
+				<h3>Monster Hunter World</h3>
+				<h4>Publisher:Capcom Co.</h4>
+				<p style="width:325px;overflow-wrap: break-word;">
+					Monster Hunter: World is an role-playing game published by Capcom. A part of the Monster Hunter series, it was released for PS 4 and Xbox One.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹2,399</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img  class="img-responsive game_content_img" src="pics/home/15_game.jpg">
+				<h3>The Elder Scrolls V: Skyrim</h3>
+				<h4>Publisher:Bethesda Softworks</h4>
+				<p style="width:320px;overflow-wrap: break-word;">
+					The Elder Scrolls V: Skyrim is an action role-playing video game developed by Bethesda Game Studios and published by Bethesda Softworks.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹2,599</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img  class="img-responsive game_content_img" src="pics/home/16_game.jpg">
+				<h3>Fallout 76</h3>
+				<h4>Publisher:Bethesda Softworks</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Fallout 76 is an upcoming online multiplayer action role-playing video game developed by Bethesda Game Studios and published by Bethesda Softworks. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹3,999</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/36_game.jpg">
+				<h3>Life Is Strange 2</h3>
+				<h4>Publisher:Square Enix </h4>
+				<p style="width:320px;overflow-wrap: break-word;">
+					Life Is Strange 2 is an episodic graphic adventure video game developed by Dontnod Entertainment and published by Square Enix and the second main entry of the Life Is Strange series.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹2,899</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/37_game.jpg">
+				<h3>The Last of Us Part II</h3>
+				<h4>Publisher:Sony Entertainment</h4>
+				<p style="width:325px;overflow-wrap: break-word;">
+					The Last of Us Part II is an upcoming action-adventure game developed by Naughty Dog and published by Sony Interactive Entertainment for PlayStation 4.	
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹5,099</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> </h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/38_game.jpg">
+				<h3>Final Fantasy XV</h3>
+				<h4>Publisher:Square Enix</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Final Fantasy XV is an action,adventure and role-playing video game developed and published by Square Enix as part of the long-running Final Fantasy series.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹1,140</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/39_game.jpg">
+				<h3>Vampyr</h3>
+				<h4>Publisher:Focus Home Interactive</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Vampyr is an action role-playing video game  published by Focus Home Interactive. It was released on 5 June 2018 for PS4 and Xbox One. 
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹2,350</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> </h3>
+				</div>
+			</div>
+		
+
+			<div class="col-sm-4 game_page_content" >
+				<img class="img-responsive game_content_img" src="pics/home/40_game.jpg">
+				<h3>Kingdom Come: Deliverance</h3>
+				<h4>Publisher:Deep Silver</h4>
+				<p style="width:300px;overflow-wrap: break-word;">
+					Kingdom Come: Deliverance is set in the medieval Kingdom of Bohemia, an Imperial State of the Holy Roman Empire, with a focus on historically accurate content.
+				</p>
+				<div class="col-sm-8 col-sm-offset-1" style="background-color:#D00000;border-radius: 3px;height:50px;">
+					<div class="col-sm-6">
+						<button onclick="func1()" class="game_buy_btn"><i class="fa fa-cart-plus"></i></button>
+					</div>
+					<div class="col-sm-6">
+						<h4 style="font-size: 24px;color: lightgrey;margin-left: -21px;padding: 3px;">₹4,099</h4>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<h3 style="margin-left:-15px">Available On: <i class="fab fa-playstation"></i> <i class="fab fa-xbox"></i>  <i class="fab fa-windows"></i></h3>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+<script>
+	$(document).ready
+	(			
+		function()
+		{
+			$("#but2").click
+			(
+				function()
+				{
+					$('#img1').attr('src', 'pics/home/13_game.jpg');
+					$("#but2").click
+					(
+						function()
+						{
+							$('#img1').attr('src', 'pics/home/16_game.jpg');
+							$("#but2").click
+							(
+								function()
+								{
+									$('#img1').attr('src', 'pics/home/36_game.jpg');
+									$("#but2").click
+									(
+										function()
+										{
+											$('#img1').attr('src', 'pics/home/15_game.jpg');
+										}
+									);
+								}
+							);	
+						}
+					);	
+				}
+			);	
+		}
+	);	
+	$(document).ready
+	(			
+		function()
+		{
+			$("#but1").click
+			(
+				function()
+				{
+					$('#img1').attr('src', 'pics/home/36_game.jpg');
+					$("#but1").click
+					(
+						function()
+						{
+							$('#img1').attr('src', 'pics/home/16_game.jpg');
+							$("#but1").click
+							(
+								function()
+								{
+									$('#img1').attr('src', 'pics/home/13_game.jpg');
+									$("#but1").click
+									(
+										function()
+										{
+											$('#img1').attr('src', 'pics/home/37_game.jpg');
+										}
+									);
+								}
+							);	
+						}
+					);	
+				}
+			);	
+		}
+	);	
+	function func1()
+	{
+		alert("Game Added To Cart");
+	}
+</script>	
+</body>

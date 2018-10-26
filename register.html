@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+	<div class="container-fluid">
+		<header>
+			<div class="col-sm-12 login_header">
+				<div class="col-sm-4" style="margin-left: -15px;height:60px;background-color: #D00000;">
+					<h1 style="margin-top: 9px;text-shadow: 0 0 10px black;"><b>Game Zone</b></h1>
+				</div>
+				<div class="col-sm-8" style="height:60px;">
+					<button onclick="location.href='register.html';"  class="nav_btn" style="float: right;margin-right: -45px;"><i class="fa fa-user-circle"></i></button>
+					<button onclick="location.href='login.html';" class="nav_btn" style="float: right;margin-right: 3px;"><i class="fa fa-sign-in"></i></button>
+				</div>
+
+			</div>
+		</header>
+	</div>
+</head>
+<body style="background: url('pics/background_2.jpg')no-repeat center center ;background-size: cover;">
+	<div class="container-fluid">
+		<div class="col-sm-12 login_fade_1" >
+		</div>
+		<div class="col-sm-12 login_fade_2" style="height: 650px;">
+		</div>
+		<div class="col-sm-4 col-sm-offset-4">
+			<div class="form_head" style=" margin-top: -730px;">
+				<h2 style="padding: 14px;"><b>Enter Details</b></h2>
+			</div>
+			<div class="login_form" style="height: 635px;">
+				<p style="padding-top: 25px;margin-left: 50px;font-size: 28px;"><b>Enter </b>Username</p><br>
+				<input id="username" class="login_input" type="text"><br>
+				<p style="padding-top: 25px;margin-left: 50px;font-size: 28px;"><b>Enter </b>E-Mail</p><br>
+				<input id="email" class="login_input" type="text"><br>
+				<p style="padding-top: 25px;margin-left: 50px;font-size: 28px;"><b>Enter </b>Phone No.</p><br>
+				<input id="num" class="login_input" type="text"><br>
+				<p style="padding-top: 25px;margin-left: 50px;font-size: 28px;"><b>Enter </b>Password</p><br>
+				<input id="pass" class="login_input" type="password"><br>
+				<div class=" col-sm-6 form_btn_div">
+					<button class="form_btn" onclick="func1()"><i class="fa fa-user-circle"></i></button>
+					<b> Register</b>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<script>
+		function func1()
+		{
+			var username = document.getElementById("username").value;
+			var email = document.getElementById("email").value;
+			var num = document.getElementById("num").value;
+			var pass = document.getElementById("pass").value;
+			if(username.length<1)
+			{
+				alert("Name Required")
+			}
+			else if(email == '' || email.indexOf('@') == -1 || email.indexOf('.') == -1)
+			{
+				alert("Invalid Email ID")
+			}
+			else if(num.length!=10)
+			{
+				alert("Invlaid Number");
+			}
+			else if(/\D/.test(num))
+			{
+				alert("Enter Only Numbers For Mobile Number")
+			}
+			else if(pass.length<6)
+			{
+				alert("Password Should Be Of Atlest 6 Charcter");
+			}
+			else
+			{
+				alert("Welcome " +username+" ,Login To Complete The Registeration");
+				window.location.href="login.html";
+			}
+		}
+		
+	</script>
+</body>
